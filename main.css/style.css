@@ -173,7 +173,7 @@ background: none;
 
 .btn-blok-2 button:hover{
 background: deeppink;
-color: gold;
+color:  gold;
 transition: 0.4s all;
 border: 1px solid rgb(132, 0, 255);
 }
@@ -204,8 +204,124 @@ align-items: center;
 margin: 0 auto;
 margin-bottom: 95px;
 }
+.card-boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.li-tab{
+font-family: Lato;
+font-size: 52px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+/* margin-top: -50px; */
+}
+.img-righ{
+    margin-top:130px;
+}
+.lift{
+    margin-top: -60px;
+}
+.card-boxs button{
+    font-family: Lato;
+}
+.sayt-btn{
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    font-family:Lato;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    cursor: pointer;
+   margin-top: 100px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   }
+   
+   .sayt-btn ::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .sayt-btn:hover {
+    color: #fff;
+    background: #3a0ca3;
+   }
+   
+   .sayt-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .sayt-btn:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   .sayt-btn:active:before{
+    background:#3a0ca3;
 
+   }
 
+/* MAIN SECTION 4 */
+.tex-bob{
+    margin-top: 195px;
+    text-align: center;
+}
+.tex-bob h4{
+    font-family:Lato;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center; 
+}
+.tex-bob p{
+max-width:849px;
+font-family:Lato;
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+text-align: center;
+margin: 0 auto;
+}
+.img-blog{
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pay{
+font-family:Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+}
 
 
 
@@ -315,15 +431,82 @@ margin-bottom: 95px;
 
 
 
+   @media screen and (max-width:600px){
 
+    .sayt-btn{
+        --color: #560bad;
+        font-family: inherit;
+        display: inline-block;
+        width: 8em;
+        height: 2.6em;
+        line-height: 2.5em;
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid var(--color);
+        /* transition: color .5s; */
+        /* z-index: 1; */
+        /* font-size: 17px; */
+        /* border-radius: 6px; */
+        /* font-weight: 500; */
+        /* color: var(--color); */
+        /* cursor: pointer; */
+       margin-top: 100px;
+       margin:0 auto;
+       /* display: flex; */
+       text-align: center;
+       /* margin-right: 200px; */
+       }
 
 
 
 
 
+    .btn-blok-2{
+        margin-bottom:50px;
+        }
+    .text-center{
+        max-width:312px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 75px;
+        }
+    .text-center p{
+        text-align: center;
+        display: flex;
+        max-width: 312px;
+        width: 100%;
+        font-family:Lato;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        }
 
 
 
+
+    .lift{
+        margin-top: -40px;
+    }
+    .li-tab{
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 400;
+        line-height:50px;
+        letter-spacing: 0em;
+        text-align: center;
+        /* margin-top: -50px; */
+        margin-top: -42px;
+        }
+
+   }
 
 
 
@@ -401,10 +584,76 @@ border: 1px solid rgb(132, 0, 255);
 
 
 @media screen and (max-width: 522px){
+    .btn-blok-2{
+        margin-bottom: 30px;
+        }
+        .img-righ{
+            margin-top:30px;
+            margin-bottom:10px;
+        }
+        .li-tab{
+            font-family: Lato;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: 10px;
+            }
+
+            .sayt-btn{
+                --color: #560bad;
+                font-family: inherit;
+                display: inline-block;
+                font-family:Lato;
+                width: 8em;
+                height: 2.6em;
+                line-height: 2.5em;
+                margin: 20px;
+                position: relative;
+                overflow: hidden;
+                border: 2px solid var(--color);
+                transition: color .5s;
+                z-index: 1;
+                font-size: 17px;
+                border-radius: 6px;
+                font-weight: 500;
+                color: var(--color);
+                cursor: pointer;
+               margin-top: 100px;
+               margin: 0 auto;
+               text-align: center;
+               display: flex;
+               justify-content: center;
+               }
+               
+
+               .tex-bob{
+                margin-top:85px;
+                text-align: center;
+            }
+
+
+
+        .card-boxs{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .img-blog{
+            margin-top:73px;
+            display: flex;
+            margin: 0 auto;
+            justify-content:center;
+            flex-wrap: wrap;
+        }
 
 
     .tex-blok{
-        padding-top:100px;
+        padding-top:40px;
         text-align:center;
         display: flex;
         flex-direction: column;
