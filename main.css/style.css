@@ -696,9 +696,6 @@ justify-content: space-between;
         text-align: center;
         }
 
-
-
-
     .lift{
         margin-top: -40px;
     }
@@ -791,6 +788,36 @@ border: 1px solid rgb(132, 0, 255);
 
 
 @media screen and (max-width: 522px){
+
+    .servis{
+        font-family:Lato;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;  
+        }
+
+
+    .tex-grup-servis{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        margin-top:20px;
+        }
+
+
+
+
+
+
+
+
     .btn-blok-2{
         margin-bottom: 30px;
         }
