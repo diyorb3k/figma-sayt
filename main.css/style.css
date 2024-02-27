@@ -777,6 +777,7 @@ text-align: center;
       
       .btn-sayt:hover::before {
         transform: scaleX(1);
+        border: none;
         
       }
       
@@ -803,8 +804,85 @@ text-align: center;
         );
         transition: all 0.475s;
       }
-      
+      /* FOTER */
+      .bgr{
+        background-color: #070707;
+      }
+      .yul-bar{
+display: flex;
+flex-wrap: wrap;
+padding-top:32px;
+padding-bottom: 34px;
+gap: 16px;
+font-family: Lato;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+ }
+ .reser{
+color:#ffffff;
+font-family:Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding-right:10px;
+padding-left: 10px;
+
+ }
+ .codlarim{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
    @media screen and (max-width:600px){
+    .yul-bar{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:32px;
+        padding-bottom: 34px;
+        gap: 16px;
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+         }
+         .reser{
+            color:#ffffff;
+            font-family:Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            padding-left: 10px;
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            
+             }
+         .codlarim{
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            max-width: 543px;
+         }
+   
     .sayt-btn{
         --color: #560bad;
         font-family: inherit;
