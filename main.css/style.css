@@ -694,7 +694,9 @@ border-radius: 100%;
     }
   }
 /* MAIN-SECTION-7 */
-
+.card-2 img{
+max-width: 359px;
+}
 .card-1 h3{
 font-family:Lato;
 font-size: 16px;
@@ -719,13 +721,14 @@ text-align: left;
     }
 
 
-    .cart-tex-3{
+    .tex-blog{
         display: flex;
         justify-content: space-between;
         margin-top: 85px;
         flex-wrap: wrap;
         text-align: center;
         margin: 0 auto;
+        max-width: 359px;
     }
 
    @media screen and (max-width:600px){
@@ -850,7 +853,15 @@ border: 1px solid rgb(132, 0, 255);
 
 @media screen and (max-width: 522px){
 
-
+    .tex-blog{
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        margin-top: 85px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 339px;
+    }
 
     .py-grup p{
         font-family:Lato;
